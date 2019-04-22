@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KSToolsGroup_Example' do
+  pod 'KSToolsGroup', :path => '../'
+
+  target 'KSToolsGroup_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
