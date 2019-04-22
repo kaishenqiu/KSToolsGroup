@@ -1,0 +1,16 @@
+PODS:
+  - KSToolsGroup (0.1.0)
+
+DEPENDENCIES:
+  - KSToolsGroup (from `../`)
+
+EXTERNAL SOURCES:
+  KSToolsGroup:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KSToolsGroup: 87ce58de4c28b2bde896ef3d8aef8d0980af9b01
+
+PODFILE CHECKSUM: e0e478bc2549bd213e14d09498c4c4dd1ada0d26
+
+COCOAPODS: 1.6.1

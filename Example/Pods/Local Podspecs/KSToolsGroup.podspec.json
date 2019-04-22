@@ -1,0 +1,22 @@
+{
+  "name": "KSToolsGroup",
+  "version": "0.1.0",
+  "summary": "A short description of KSToolsGroup.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/375752785@qq.com/KSToolsGroup",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "375752785@qq.com": "qiuxk@example.com"
+  },
+  "source": {
+    "git": "https://github.com/375752785@qq.com/KSToolsGroup.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KSToolsGroup/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module KSToolsGroup {
+  umbrella header "KSToolsGroup-umbrella.h"
+
+  export *
+  module * { export * }
+}
