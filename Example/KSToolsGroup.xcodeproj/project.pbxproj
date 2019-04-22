@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		21A153BC7698DA2B513AF4A8 /* Pods-KSToolsGroup_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSToolsGroup_Example.debug.xcconfig"; path = "Target Support Files/Pods-KSToolsGroup_Example/Pods-KSToolsGroup_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		57FC336E9404F8F508F40E90 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		57FC336E9404F8F508F40E90 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KSToolsGroup_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSToolsGroup_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		652BEC723184E9229A51AFA7 /* Pods-KSToolsGroup_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSToolsGroup_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KSToolsGroup_Tests/Pods-KSToolsGroup_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0E09E579D39B3A9A987C98C /* Pods_KSToolsGroup_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSToolsGroup_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E1E67E768483602BA7B82E /* Pods-KSToolsGroup_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSToolsGroup_Example.release.xcconfig"; path = "Target Support Files/Pods-KSToolsGroup_Example/Pods-KSToolsGroup_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C4249E28C41F363F6BBB9934 /* KSToolsGroup.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KSToolsGroup.podspec; path = ../KSToolsGroup.podspec; sourceTree = "<group>"; };
-		C8BC58D07BAC55932F1BD656 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C4249E28C41F363F6BBB9934 /* KSToolsGroup.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KSToolsGroup.podspec; path = ../KSToolsGroup.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8BC58D07BAC55932F1BD656 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D56406A7AF6846415BFE48D8 /* Pods_KSToolsGroup_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSToolsGroup_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE3D1C3823A975B350A46F69 /* Pods-KSToolsGroup_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSToolsGroup_Tests.release.xcconfig"; path = "Target Support Files/Pods-KSToolsGroup_Tests/Pods-KSToolsGroup_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				652BEC723184E9229A51AFA7 /* Pods-KSToolsGroup_Tests.debug.xcconfig */,
 				FE3D1C3823A975B350A46F69 /* Pods-KSToolsGroup_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 492TRLHR4N;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 492TRLHR4N;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -482,6 +484,7 @@
 			baseConfigurationReference = 21A153BC7698DA2B513AF4A8 /* Pods-KSToolsGroup_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 492TRLHR4N;
 				INFOPLIST_FILE = KSToolsGroup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -497,6 +500,7 @@
 			baseConfigurationReference = A9E1E67E768483602BA7B82E /* Pods-KSToolsGroup_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 492TRLHR4N;
 				INFOPLIST_FILE = KSToolsGroup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -511,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 652BEC723184E9229A51AFA7 /* Pods-KSToolsGroup_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 492TRLHR4N;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -533,6 +538,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE3D1C3823A975B350A46F69 /* Pods-KSToolsGroup_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 492TRLHR4N;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
