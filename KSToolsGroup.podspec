@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KSToolsGroup'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'some tools in common use '
   s.swift_version = '4.0'
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-            some tools common use from kaishenqiu
+                       some tools common use from kaishenqiu
                        DESC
 
   s.homepage         = 'https://github.com/kaishenqiu/KSToolsGroup'
