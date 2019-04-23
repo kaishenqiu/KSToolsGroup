@@ -9,14 +9,15 @@
 /* Begin PBXBuildFile section */
 		0ED7791DAC65FF42525E498C98586612 /* Pods-KSToolsGroup_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD3DEEC642B6114F39A3649E84AF85 /* Pods-KSToolsGroup_Tests-dummy.m */; };
 		1209A897314140F23FCA05F5F6D05DD1 /* Pods-KSToolsGroup_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0574ECC973AD59E51D757265CBB23B1D /* Pods-KSToolsGroup_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		280F769044D3462FB456D291A4D116EF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96983741E0EC8EFF4E676A131A2DADEC /* ReplaceMe.swift */; };
-		4B1307306D768EA6372F58394C6721DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		2BCB8460E99767B0D3CD79C58F82C631 /* KSToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239A3B5A41B7CB6CAB9F3705E33606A /* KSToolbar.swift */; };
+		5723047B84DE141A033AE203AA0A6FED /* KSToolsGroup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C547A016B172E4D770F5EF2B82EB028 /* KSToolsGroup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59F78F32A91472316845EF6DC75D4B05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		5B75EEFF5B3736ED3063DE2EDB722102 /* KSToolsGroup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9D7B60BC7D232E3ABC7CB8C41C34A3 /* KSToolsGroup-dummy.m */; };
+		86F6A8C1789A10EB4944CEC5C036D245 /* KSToolsGroup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BAD56A0818503E418C7587C712C33 /* KSToolsGroup-dummy.m */; };
+		890450B3F722B342C208581CA13D77FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		9048087D4459D25F2328EA5F94BC750D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		A0CA342E4F5F57EEC9FF0BD1A3F8BE5F /* Pods-KSToolsGroup_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1BFEBF6571CDD23809F94404004B9D /* Pods-KSToolsGroup_Example-dummy.m */; };
+		A207EABE88AB69076ACE5E94261D5E5B /* KSToolsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F4A3F8D7AC1F540E45551BD2C88EBD /* KSToolsGroup.swift */; };
 		A43B44A58C816A37827779B0BE41A75D /* Pods-KSToolsGroup_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2785D3A9B10FAB29ECD07920C3A015 /* Pods-KSToolsGroup_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE90F74894A28BE5DAD1B971C47ED568 /* KSToolsGroup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE1B0CA048BAE7B144935006C058F9A /* KSToolsGroup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6D0E928CD61E7B8E99C45863D8184DA2;
+			remoteGlobalIDString = 95727F57836606CF22B278F81B2FE07F;
 			remoteInfo = KSToolsGroup;
 		};
 		B3534BBF3F597454B726BEF97B618FFA /* PBXContainerItemProxy */ = {
@@ -38,36 +39,37 @@
 
 /* Begin PBXFileReference section */
 		0574ECC973AD59E51D757265CBB23B1D /* Pods-KSToolsGroup_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KSToolsGroup_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0A8BAD56A0818503E418C7587C712C33 /* KSToolsGroup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KSToolsGroup-dummy.m"; sourceTree = "<group>"; };
 		0CAD3DEEC642B6114F39A3649E84AF85 /* Pods-KSToolsGroup_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSToolsGroup_Tests-dummy.m"; sourceTree = "<group>"; };
-		0F11508BF47792B3E2B76ADB49344A40 /* KSToolsGroup.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KSToolsGroup.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1C6B7C96052994106682E1CD52CA338C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		22E88C1003A0D00A5BCBDC8CE340DAD7 /* Pods-KSToolsGroup_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSToolsGroup_Example-frameworks.sh"; sourceTree = "<group>"; };
 		250A3457700002CC183DBD672E5EC061 /* Pods-KSToolsGroup_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KSToolsGroup_Example.modulemap"; sourceTree = "<group>"; };
 		29A919F140A02123B2C1FBDDB9F4CE3C /* Pods-KSToolsGroup_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSToolsGroup_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2BC1AD29B1F09EA06D099982D16452C3 /* Pods-KSToolsGroup_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSToolsGroup_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BD3B773F5E409B934346B3F52403A4A /* KSToolsGroup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KSToolsGroup-Info.plist"; sourceTree = "<group>"; };
 		302C6A98C003DD2F6DC40F1E3A4B06FC /* Pods-KSToolsGroup_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSToolsGroup_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3FE1B0CA048BAE7B144935006C058F9A /* KSToolsGroup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSToolsGroup-umbrella.h"; sourceTree = "<group>"; };
+		3239A3B5A41B7CB6CAB9F3705E33606A /* KSToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KSToolbar.swift; path = KSToolsGroup/Classes/KSToolbar.swift; sourceTree = "<group>"; };
 		4F20FB71D462C2A0052647C79EDAFC22 /* Pods-KSToolsGroup_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSToolsGroup_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		58F4A3F8D7AC1F540E45551BD2C88EBD /* KSToolsGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KSToolsGroup.swift; path = KSToolsGroup/Classes/KSToolsGroup.swift; sourceTree = "<group>"; };
+		5C547A016B172E4D770F5EF2B82EB028 /* KSToolsGroup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSToolsGroup-umbrella.h"; sourceTree = "<group>"; };
 		68C570BA77757228C701C563B7D32A8E /* Pods-KSToolsGroup_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSToolsGroup_Example-Info.plist"; sourceTree = "<group>"; };
+		6D82C8CCB292A8DF33FF5A4B2D513B45 /* KSToolsGroup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KSToolsGroup.modulemap; sourceTree = "<group>"; };
 		6F2785D3A9B10FAB29ECD07920C3A015 /* Pods-KSToolsGroup_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KSToolsGroup_Example-umbrella.h"; sourceTree = "<group>"; };
-		7B91E08B532FC4F3B95949321139AADA /* KSToolsGroup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KSToolsGroup.modulemap; sourceTree = "<group>"; };
 		88811A1BE887FDF0673620613CBEBEB6 /* Pods_KSToolsGroup_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KSToolsGroup_Example.framework; path = "Pods-KSToolsGroup_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89487AE3C40AA7EAC269AD8E1BB55E86 /* Pods_KSToolsGroup_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KSToolsGroup_Tests.framework; path = "Pods-KSToolsGroup_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB0F71B3D2CE162E336D97A5EB3193C /* Pods-KSToolsGroup_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSToolsGroup_Tests-Info.plist"; sourceTree = "<group>"; };
-		96983741E0EC8EFF4E676A131A2DADEC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KSToolsGroup/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3148476C48CA90CEB99009A58AA8213 /* KSToolsGroup.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KSToolsGroup.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA8FA25EE86D4DC6DEB82695A63AAC63 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AD3AC20E7FB41CC5DA61F7EB0ED29D0D /* Pods-KSToolsGroup_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSToolsGroup_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BA9598FDDEC15A858FEA7C32F16CFE50 /* KSToolsGroup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KSToolsGroup.xcconfig; sourceTree = "<group>"; };
-		BB9D7B60BC7D232E3ABC7CB8C41C34A3 /* KSToolsGroup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KSToolsGroup-dummy.m"; sourceTree = "<group>"; };
-		BDA37A6E7F359A5E211F650C36FF5123 /* KSToolsGroup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSToolsGroup-prefix.pch"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC048351D8B5A92EE388E6243F2AB55C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DB1BFEBF6571CDD23809F94404004B9D /* Pods-KSToolsGroup_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSToolsGroup_Example-dummy.m"; sourceTree = "<group>"; };
 		DB62BCED963C309D6B3846013DF022C6 /* Pods-KSToolsGroup_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSToolsGroup_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E17916769B62B1F38596541AA4988B55 /* KSToolsGroup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KSToolsGroup-Info.plist"; sourceTree = "<group>"; };
 		EC25285A202D0DCC7E64CEA97E704BCF /* Pods-KSToolsGroup_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KSToolsGroup_Tests.modulemap"; sourceTree = "<group>"; };
 		F27D34244366F807FAB513CEE04D0736 /* KSToolsGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KSToolsGroup.framework; path = KSToolsGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A272C568CB208252CE4D7F15BC025D /* Pods-KSToolsGroup_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSToolsGroup_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F8584FA0EB08EBBCDCD19CA809004DFD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F9981B1F23019FD27F86F56362F7B33E /* KSToolsGroup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSToolsGroup-prefix.pch"; sourceTree = "<group>"; };
+		FB9A22BC13284EC1A9420478EEBD0ECD /* KSToolsGroup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KSToolsGroup.xcconfig; sourceTree = "<group>"; };
 		FC2AB59535EF073C741EB45448CAE5BB /* Pods-KSToolsGroup_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSToolsGroup_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,26 +90,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5B47D0F78150204AA193A9182DBFDFD /* Frameworks */ = {
+		A8E2E8DD9F21AB26B5C539CCEFBCB844 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B1307306D768EA6372F58394C6721DA /* Foundation.framework in Frameworks */,
+				890450B3F722B342C208581CA13D77FA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B0C59D40CCA240C57D206942705F8B9 /* KSToolsGroup */ = {
+		034317EE7AC3CC9EE42D4082D05DA0E8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				96983741E0EC8EFF4E676A131A2DADEC /* ReplaceMe.swift */,
-				5BB3304D1492F502F0938C31B395D193 /* Pod */,
-				E228B2D71A3CB61810B57D59CF478853 /* Support Files */,
+				A3148476C48CA90CEB99009A58AA8213 /* KSToolsGroup.podspec */,
+				CC048351D8B5A92EE388E6243F2AB55C /* LICENSE */,
+				AA8FA25EE86D4DC6DEB82695A63AAC63 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0D59A7746BE681F74D8F909F7FB725EB /* KSToolsGroup */ = {
+			isa = PBXGroup;
+			children = (
+				3239A3B5A41B7CB6CAB9F3705E33606A /* KSToolbar.swift */,
+				58F4A3F8D7AC1F540E45551BD2C88EBD /* KSToolsGroup.swift */,
+				034317EE7AC3CC9EE42D4082D05DA0E8 /* Pod */,
+				1DA7C94DF58A5BBD9C992F706B5310DF /* Support Files */,
 			);
 			name = KSToolsGroup;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		1DA7C94DF58A5BBD9C992F706B5310DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D82C8CCB292A8DF33FF5A4B2D513B45 /* KSToolsGroup.modulemap */,
+				FB9A22BC13284EC1A9420478EEBD0ECD /* KSToolsGroup.xcconfig */,
+				0A8BAD56A0818503E418C7587C712C33 /* KSToolsGroup-dummy.m */,
+				2BD3B773F5E409B934346B3F52403A4A /* KSToolsGroup-Info.plist */,
+				F9981B1F23019FD27F86F56362F7B33E /* KSToolsGroup-prefix.pch */,
+				5C547A016B172E4D770F5EF2B82EB028 /* KSToolsGroup-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KSToolsGroup";
 			sourceTree = "<group>";
 		};
 		2294072F5557C9E8B1B80F6D9FD88B79 /* Pods-KSToolsGroup_Example */ = {
@@ -127,20 +154,10 @@
 			path = "Target Support Files/Pods-KSToolsGroup_Example";
 			sourceTree = "<group>";
 		};
-		5BB3304D1492F502F0938C31B395D193 /* Pod */ = {
+		2F119D214064791556BF23C04617FF7A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0F11508BF47792B3E2B76ADB49344A40 /* KSToolsGroup.podspec */,
-				1C6B7C96052994106682E1CD52CA338C /* LICENSE */,
-				F8584FA0EB08EBBCDCD19CA809004DFD /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		7D147AC67BCFB6369834F3163DA12498 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0B0C59D40CCA240C57D206942705F8B9 /* KSToolsGroup */,
+				0D59A7746BE681F74D8F909F7FB725EB /* KSToolsGroup */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -192,7 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7D147AC67BCFB6369834F3163DA12498 /* Development Pods */,
+				2F119D214064791556BF23C04617FF7A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				7FDEE90C4C4021C95AD1D48C1DA599D2 /* Products */,
 				C1AF286E439FD7AF39212A9EB9DF8A47 /* Targets Support Files */,
@@ -207,36 +224,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E228B2D71A3CB61810B57D59CF478853 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7B91E08B532FC4F3B95949321139AADA /* KSToolsGroup.modulemap */,
-				BA9598FDDEC15A858FEA7C32F16CFE50 /* KSToolsGroup.xcconfig */,
-				BB9D7B60BC7D232E3ABC7CB8C41C34A3 /* KSToolsGroup-dummy.m */,
-				E17916769B62B1F38596541AA4988B55 /* KSToolsGroup-Info.plist */,
-				BDA37A6E7F359A5E211F650C36FF5123 /* KSToolsGroup-prefix.pch */,
-				3FE1B0CA048BAE7B144935006C058F9A /* KSToolsGroup-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KSToolsGroup";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		5F03F6F548337567957E14733B2BAC2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5723047B84DE141A033AE203AA0A6FED /* KSToolsGroup-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8B00FBBAB78FD8EBA7C4E2194C00DFD6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A43B44A58C816A37827779B0BE41A75D /* Pods-KSToolsGroup_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D00341881DAFAD233B6EE56C3BCE2824 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE90F74894A28BE5DAD1B971C47ED568 /* KSToolsGroup-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,14 +273,14 @@
 			productReference = 89487AE3C40AA7EAC269AD8E1BB55E86 /* Pods_KSToolsGroup_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6D0E928CD61E7B8E99C45863D8184DA2 /* KSToolsGroup */ = {
+		95727F57836606CF22B278F81B2FE07F /* KSToolsGroup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86E1CA363B83019E43D85477AB50D2A3 /* Build configuration list for PBXNativeTarget "KSToolsGroup" */;
+			buildConfigurationList = 99C684F704174B8B05AC91373368704C /* Build configuration list for PBXNativeTarget "KSToolsGroup" */;
 			buildPhases = (
-				D00341881DAFAD233B6EE56C3BCE2824 /* Headers */,
-				4CFDF9299EA222C1F170504EFB116644 /* Sources */,
-				A5B47D0F78150204AA193A9182DBFDFD /* Frameworks */,
-				9460156C82EB886A739CF7037A80B75E /* Resources */,
+				5F03F6F548337567957E14733B2BAC2E /* Headers */,
+				47BEB49065076B6E0E4D633444C20201 /* Sources */,
+				A8E2E8DD9F21AB26B5C539CCEFBCB844 /* Frameworks */,
+				EFAD412E377BFD152A9752B0B43397BD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -328,7 +331,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D0E928CD61E7B8E99C45863D8184DA2 /* KSToolsGroup */,
+				95727F57836606CF22B278F81B2FE07F /* KSToolsGroup */,
 				DF1D71167D24A6CC16255FE586F70C66 /* Pods-KSToolsGroup_Example */,
 				53F6232F131B29C30EEC7C8DB628F045 /* Pods-KSToolsGroup_Tests */,
 			);
@@ -336,13 +339,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9460156C82EB886A739CF7037A80B75E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C71C68985E10041496DE705813B2E76E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,6 +347,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EB1A9357335CD399D629BE3679B77901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAD412E377BFD152A9752B0B43397BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,12 +371,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CFDF9299EA222C1F170504EFB116644 /* Sources */ = {
+		47BEB49065076B6E0E4D633444C20201 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B75EEFF5B3736ED3063DE2EDB722102 /* KSToolsGroup-dummy.m in Sources */,
-				280F769044D3462FB456D291A4D116EF /* ReplaceMe.swift in Sources */,
+				2BCB8460E99767B0D3CD79C58F82C631 /* KSToolbar.swift in Sources */,
+				86F6A8C1789A10EB4944CEC5C036D245 /* KSToolsGroup-dummy.m in Sources */,
+				A207EABE88AB69076ACE5E94261D5E5B /* KSToolsGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +395,7 @@
 		0321C0BD159B6A1DB28CD9F3C4EA6FFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KSToolsGroup;
-			target = 6D0E928CD61E7B8E99C45863D8184DA2 /* KSToolsGroup */;
+			target = 95727F57836606CF22B278F81B2FE07F /* KSToolsGroup */;
 			targetProxy = 8762FE57050AC5DED97150982E39D400 /* PBXContainerItemProxy */;
 		};
 		08345AA1C9784B33FFD02F05912547A2 /* PBXTargetDependency */ = {
@@ -403,9 +407,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A7BB6AA0AC1A79FBC81A09B643221B3 /* Release */ = {
+		207528F9CB3B4ACE10D3964DF1CCF586 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA9598FDDEC15A858FEA7C32F16CFE50 /* KSToolsGroup.xcconfig */;
+			baseConfigurationReference = FB9A22BC13284EC1A9420478EEBD0ECD /* KSToolsGroup.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -419,7 +423,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/KSToolsGroup/KSToolsGroup-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/KSToolsGroup/KSToolsGroup-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KSToolsGroup/KSToolsGroup.modulemap";
 				PRODUCT_MODULE_NAME = KSToolsGroup;
@@ -633,9 +637,9 @@
 			};
 			name = Release;
 		};
-		EF4A650BF56007395F978EBA4DA53FD7 /* Debug */ = {
+		D6579BB89835FCE310ECF7BFC27ABEEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA9598FDDEC15A858FEA7C32F16CFE50 /* KSToolsGroup.xcconfig */;
+			baseConfigurationReference = FB9A22BC13284EC1A9420478EEBD0ECD /* KSToolsGroup.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -649,7 +653,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/KSToolsGroup/KSToolsGroup-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/KSToolsGroup/KSToolsGroup-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KSToolsGroup/KSToolsGroup.modulemap";
 				PRODUCT_MODULE_NAME = KSToolsGroup;
@@ -736,11 +740,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86E1CA363B83019E43D85477AB50D2A3 /* Build configuration list for PBXNativeTarget "KSToolsGroup" */ = {
+		99C684F704174B8B05AC91373368704C /* Build configuration list for PBXNativeTarget "KSToolsGroup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF4A650BF56007395F978EBA4DA53FD7 /* Debug */,
-				1A7BB6AA0AC1A79FBC81A09B643221B3 /* Release */,
+				D6579BB89835FCE310ECF7BFC27ABEEA /* Debug */,
+				207528F9CB3B4ACE10D3964DF1CCF586 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

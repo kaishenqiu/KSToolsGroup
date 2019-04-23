@@ -1,5 +1,5 @@
 PODS:
-  - KSToolsGroup (0.1.0)
+  - KSToolsGroup (0.1.3)
 
 DEPENDENCIES:
   - KSToolsGroup (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KSToolsGroup: b0de229f09a1c66549b7fa4fe1d465481c65d47d
+  KSToolsGroup: 1602a97cd0b8a52030fcc4933f4f40d410635d7c
 
 PODFILE CHECKSUM: e0e478bc2549bd213e14d09498c4c4dd1ada0d26
 
