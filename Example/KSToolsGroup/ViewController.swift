@@ -7,11 +7,13 @@
 //
 
 import UIKit
-
+import KSToolsGroup
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textfield: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
+        textfield.inputAccessoryView = KSToolbar(controller:self)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
