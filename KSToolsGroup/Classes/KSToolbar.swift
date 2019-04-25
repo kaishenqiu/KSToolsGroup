@@ -41,7 +41,7 @@ open class KSToolbar: UIToolbar {
     }
  
 }
-extension UIView {
+fileprivate extension UIView {
     @objc func ksdoneClicked(_ sender: UIBarButtonItem) {
         self.endEditing(true)
         self.resignFirstResponder()
@@ -49,7 +49,7 @@ extension UIView {
     
 }
 
-extension UIViewController {
+fileprivate extension UIViewController {
     @objc func ksdoneClicked(_ sender: UIBarButtonItem) {
         self.view.endEditing(true)
     }
