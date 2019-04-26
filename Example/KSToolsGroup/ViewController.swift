@@ -16,6 +16,8 @@ class ViewController: UIViewController {
         textfield.inputAccessoryView = KSToolbar(controller:self)
         // Do any additional setup after loading the view, typically from a nib.
         var tableV = UITableView()
+        
+        KSLog("测试")
         tableV.mj_header = KSRefreshHeader {
             
         }
