@@ -15,6 +15,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         textfield.inputAccessoryView = KSToolbar(controller:self)
         // Do any additional setup after loading the view, typically from a nib.
+        var tableV = UITableView()
+        tableV.mj_header = KSRefreshHeader {
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {

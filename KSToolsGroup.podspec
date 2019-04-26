@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KSToolsGroup'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'some tools in common use '
   s.swift_version    = '4.0'
 
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '375752785@qq.com' => 'qiuxk@example.com' }
-  s.source           = { :git => 'https://github.com/kaishenqiu/KSToolsGroup.git', :tag => '0.1.6' }
+  s.source           = { :git => 'https://github.com/kaishenqiu/KSToolsGroup.git', :tag => '0.1.7' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -39,5 +39,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h's
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'MJRefresh'
 end

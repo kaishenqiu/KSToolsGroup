@@ -318,12 +318,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KSToolsGroup_Example/Pods-KSToolsGroup_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KSToolsGroup/KSToolsGroup.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSToolsGroup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
