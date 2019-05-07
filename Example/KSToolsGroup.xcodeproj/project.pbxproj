@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5855BF1B228150D8008060AB /* KSTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5855BF1A228150D8008060AB /* KSTable.swift */; };
 		5855BF1E228171E6008060AB /* TicketSummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5855BF1C228171E6008060AB /* TicketSummaryCell.xib */; };
 		5855BF1F228171E6008060AB /* TicketSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5855BF1D228171E6008060AB /* TicketSummaryCell.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -33,7 +32,6 @@
 /* Begin PBXFileReference section */
 		21A153BC7698DA2B513AF4A8 /* Pods-KSToolsGroup_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSToolsGroup_Example.debug.xcconfig"; path = "Target Support Files/Pods-KSToolsGroup_Example/Pods-KSToolsGroup_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		57FC336E9404F8F508F40E90 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5855BF1A228150D8008060AB /* KSTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTable.swift; sourceTree = SOURCE_ROOT; };
 		5855BF1C228171E6008060AB /* TicketSummaryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TicketSummaryCell.xib; sourceTree = "<group>"; };
 		5855BF1D228171E6008060AB /* TicketSummaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketSummaryCell.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KSToolsGroup_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSToolsGroup_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +101,6 @@
 				5855BF1C228171E6008060AB /* TicketSummaryCell.xib */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				5855BF1A228150D8008060AB /* KSTable.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -350,7 +347,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5855BF1F228171E6008060AB /* TicketSummaryCell.swift in Sources */,
-				5855BF1B228150D8008060AB /* KSTable.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

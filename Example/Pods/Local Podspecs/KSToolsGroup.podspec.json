@@ -1,6 +1,6 @@
 {
   "name": "KSToolsGroup",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "summary": "some tools in common use",
   "swift_version": "4.0",
   "description": "some tools common use from kaishenqiu",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/kaishenqiu/KSToolsGroup.git",
-    "tag": "0.1.8"
+    "tag": "0.1.9"
   },
   "platforms": {
     "ios": "8.0"
