@@ -16,6 +16,8 @@ class ViewController: UIViewController {
         textfield.inputAccessoryView = KSToolbar(controller:self)
         // Do any additional setup after loading the view, typically from a nib.
         KSToast("9999")
+        let view = UIView()
+        view.ks_width = 9
     }
 
     override func didReceiveMemoryWarning() {
