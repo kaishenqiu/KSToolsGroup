@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         textfield.inputAccessoryView = KSToolbar(controller:self)
         // Do any additional setup after loading the view, typically from a nib.
         KSToast("9999")
+       let uuu =  KSGlobal.pageSize
         let view = UIView()
         view.ks_width = 9
     }
