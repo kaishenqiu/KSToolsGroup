@@ -8,8 +8,8 @@
 
 import UIKit
 import KSToolsGroup
-class ViewController: UIViewController {
-
+class ViewController: UIViewController,KSMenuChooseDelegate {
+ 
     @IBOutlet weak var textfield: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,13 @@ class ViewController: UIViewController {
         view.ks_width = 9
         
         let menuchooseV = KSMenuChooseView(frame:CGRect(x:12, y:0, width:KSGlobal.screenW - 80, height:32), themecolor:.red, titles:["繁殖管理","种猪档案","生产管理","养户管理"])
+        menuchooseV.delegate = self
     }
+    func ksMenuChoose(selectIndex: Int) {
+        
+    }
+    
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

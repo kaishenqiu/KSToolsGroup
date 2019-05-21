@@ -8,13 +8,13 @@
 
 import UIKit
 
-protocol KSMenuChooseDelegate: class {
+public protocol KSMenuChooseDelegate: class {
     func ksMenuChoose(selectIndex:Int)
 }
 
 public class KSMenuChooseView: UIView {
     
-   weak var delegate: KSMenuChooseDelegate?
+   public weak var delegate: KSMenuChooseDelegate?
    private var chooseColor:UIColor?
    private var selectedBtn:UIButton?
    private var selectLine:UIView?
