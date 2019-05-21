@@ -19,6 +19,8 @@ class ViewController: UIViewController {
        let uuu =  KSGlobal.pageSize
         let view = UIView()
         view.ks_width = 9
+        
+        let menuchooseV = KSMenuChooseView(frame:CGRect(x:12, y:0, width:KSGlobal.screenW - 80, height:32), themecolor:.red, titles:["繁殖管理","种猪档案","生产管理","养户管理"])
     }
 
     override func didReceiveMemoryWarning() {

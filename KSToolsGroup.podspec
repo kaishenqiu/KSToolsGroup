@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KSToolsGroup'
-  s.version          = '0.1.14'
+  s.version          = '0.1.15'
   s.summary          = 'some tools in common use '
   s.swift_version    = '4.0'
 
