@@ -1,5 +1,5 @@
 PODS:
-  - KSToolsGroup (0.1.14):
+  - KSToolsGroup (0.1.16):
     - MJRefresh
   - MJRefresh (3.1.16)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KSToolsGroup: 7475b04764fd579c1bb6b21e018f601a3d370aff
+  KSToolsGroup: 34b3d4de22851878a997c35114602ac102016fa2
   MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
 
 PODFILE CHECKSUM: b61af095b1c8e237c023feeb0effbe51a3c7c2f4

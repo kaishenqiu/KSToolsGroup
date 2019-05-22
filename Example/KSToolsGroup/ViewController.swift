@@ -10,6 +10,7 @@ import UIKit
 import KSToolsGroup
 class ViewController: UIViewController,KSMenuChooseDelegate {
  
+     private var kstable:KSTable!
     @IBOutlet weak var textfield: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,29 @@ class ViewController: UIViewController,KSMenuChooseDelegate {
         
         let menuchooseV = KSMenuChooseView(frame:CGRect(x:12, y:0, width:KSGlobal.screenW - 80, height:32), themecolor:.red, titles:["繁殖管理","种猪档案","生产管理","养户管理"])
         menuchooseV.delegate = self
+        
+        
+        
+        self.kstable = KSTable(frame: self.view.bounds, identifier: "tableview")
+        self.kstable.rowHeight = 95
+        self.kstable.backgroundColor = #colorLiteral(red: 0.9607843137, green: 0.9607843137, blue: 0.9607843137, alpha: 1)
+        self.view.addSubview(self.kstable)
+        
+        
+        self.kstable.showCell = { cell, obj, indexP in
+           
+        }
+        self.kstable.didSelected = { obj in
+            
+            
+        }
+        self.kstable.network = { page in
+            
+        }
+        
+        self.kstable.mj_header.beginRefreshing()
+        
+        
     }
     func ksMenuChoose(selectIndex: Int) {
         
