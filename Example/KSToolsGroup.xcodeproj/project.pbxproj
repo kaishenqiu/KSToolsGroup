@@ -495,7 +495,7 @@
 				DEVELOPMENT_TEAM = 492TRLHR4N;
 				INFOPLIST_FILE = KSToolsGroup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 0.1.18;
+				MARKETING_VERSION = 0.1.19;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.KSToolsGroup-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,7 +512,7 @@
 				DEVELOPMENT_TEAM = 492TRLHR4N;
 				INFOPLIST_FILE = KSToolsGroup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 0.1.18;
+				MARKETING_VERSION = 0.1.19;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.KSToolsGroup-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
