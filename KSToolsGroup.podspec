@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KSToolsGroup'
-  s.version          = '0.1.17'
+  s.version          = '0.1.18'
   s.summary          = 'some tools in common use '
   s.swift_version    = '4.0'
 
@@ -40,4 +40,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h's
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'MJRefresh'
+  s.dependency 'Reusable'
 end
