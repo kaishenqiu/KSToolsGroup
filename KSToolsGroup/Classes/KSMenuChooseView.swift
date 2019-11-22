@@ -9,7 +9,7 @@
 import UIKit
 
 public protocol KSMenuChooseDelegate: class {
-    func ksMenuChoose(selectIndex:Int)
+    func ksMenuChoose(view:KSMenuChooseView,selectIndex:Int)
 }
 
 public class KSMenuChooseView: UIView {
@@ -82,7 +82,7 @@ public class KSMenuChooseView: UIView {
         selectedBtn?.setTitleColor(chooseColor, for: .normal)
  
         
-        delegate?.ksMenuChoose(selectIndex: sender.tag)
+        delegate?.ksMenuChoose(view:self,selectIndex: sender.tag)
     }
  
 }
